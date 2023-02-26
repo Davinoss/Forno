@@ -3,65 +3,83 @@
   padding: 0;
   font-family: "Raleway", sans-serif;
 }
-body {
-  background-color: #000009;
-  color: white;
-}
+/* banner numero-email */
 .container-banner div {
   display: flex;
   margin-bottom: 10px;
-  height: 30px;
-  justify-content: center;
+}
+.container-banner .number {
+  justify-content: space-between;
+  margin: 20px;
+  align-items: center;
+}
+.number img {
+  height: 100px;
+}
+.number button {
+  border-radius: 30%;
+  padding: 5px;
+}
+.number button:hover {
+  background-color: orange;
+  transition: 0.5s;
 }
 
-.copertina {
-  width: 100%;
-}
-.copertina img {
-  width: 100%;
-}
-.navbar {
-  margin-bottom: 20px;
-}
+/* navbar */
 
-.navbar li {
+.navbar1 li {
   display: inline;
 }
 
-.navbar ul {
+.navbar1 ul {
   display: flex;
   justify-content: space-evenly;
 }
 
-.navbar a {
+.navbar1 a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
-.navbar a:hover {
+.navbar1 a:hover {
   transition: 0.5s;
   color: orange;
 }
-.space {
-  height: 20px;
+
+/* foto forno larga */
+.copertina {
+  background-image: url(/locale\ interno.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  border: 1px solid black;
 }
+.copertina .titolo {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  color: beige;
+  opacity: 50%;
+}
+
+/* storia sotto foto */
 .story {
-  display: grid;
   text-align: center;
-  grid-template-columns: 1fr 1fr;
-  line-height: 2;
-  align-items: center;
-}
-.img-story {
-  display: flex;
-  justify-content: center;
 }
 
-.img-story img {
-  height: 400px;
-  width: 300px;
+/* footer */
+.info {
+  color: black;
+  line-height: 2.5;
+  padding: 20px;
+  border-top: 3px solid;
 }
-
+.info a {
+  text-decoration: none;
+}
 .info img {
-  height: 10px;
-  width: 10px;
+  height: 40px;
+}
+.info p {
+  display: flex;
 }
