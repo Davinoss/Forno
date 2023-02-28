@@ -52,19 +52,37 @@
   height: 100vh;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  border: 1px solid black;
+  opacity: 90%;
 }
 .copertina .titolo {
   position: absolute;
   top: 50%;
   left: 20px;
   color: beige;
-  opacity: 50%;
+  opacity: 60%;
 }
 
 /* storia sotto foto */
 .story {
+  background-image: url(/alora-griffiths-KT6Ui0RpdE0-unsplash.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  opacity: 80%;
+}
+.story .testo {
+  display: flex;
+  justify-content: end;
+  height: 100%;
+  align-items: center;
+}
+.testo p {
   text-align: center;
+  color: #ddb892;
+  opacity: 70%;
+  font-size: 15px;
+  font-family: "Courier New", Courier, monospace;
 }
 
 /* footer */
